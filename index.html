@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+Complicated<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maria's Bar &amp; Grill — Sports, Food &amp; Good Times</title>
+  <meta name="description" content="Maria's Bar & Grill — Authentic Mexican Cuisine. Sports bar with Early Bird Specials, Lunch Specials, Happy Hour and more. Established since 1957." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+
+      <!-- left nav -->
+      <nav class="header-nav nav-left" aria-label="Primary left">
+        <ul>
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#breakfast" class="nav-link">Breakfast</a></li>
+            <li><a href="#house-specialties" class="nav-link">house specialties</a></li>
+        </ul>
+      </nav>
+
+      <!-- centered logo -->
+      <a href="#home" class="header-logo" aria-label="Maria's Bar & Grill — Home">
+        <img src="assets/logo/logo.png" alt="Maria's Bar & Grill" />
+      </a>
+
+      <!-- right nav -->
+      <nav class="header-nav nav-right" aria-label="Primary right">
+        <ul>
+          <li><a href="#house-drinks" class="nav-link">House Drinks</a></li>
+          <!-- Menu opens the PDF -->
+          <li><a href="assets/pdf/menu.pdf" target="_blank" rel="noopener" class="nav-link">Menu</a></li>
+          <li><a href="#contact" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- social + order online -->
+      <div class="header-actions">
+        <div class="header-social">
+          <a href="https://www.instagram.com/lacorona_grill" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/lacoronabarandgrill" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.tiktok.com/ target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <!-- TODO: replace href with the real online ordering URL -->
+        <a href="https://www.grubhub.com/restaurant/la-corona-bar--grill-16623-sherman-way-los-angeles/2367982?utm_source=google&utm_medium=organic&utm_campaign=place-action-link&pickup=true&rwg_token=AE37R_illwfSeA1D3KfgtdwLw92tcs8NbLYSl6y-qTvuatqlg5Vp1742UDpzKNsOQLTuLBnBPMaw70tfog86voozYU3tXrK_Hw%3D%3D" class="btn btn-order" id="order-online-top">Order Online</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- mobile menu drawer -->
+  <div class="mobile-menu" id="mobile-menu">
+    <nav aria-label="Mobile">
+      <ul>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#breakfast" class="nav-link">Breakfast</a></li>
+        <li><a href="#house-specialties" class="nav-link">House Specialties</a></li>
+        <li><a href="#house-drinks" class="nav-link">House Drinks</a></li>
+        <li><a href="assets/pdf/menu.pdf" target="_blank" rel="noopener" class="nav-link">Menu</a></li>
+        <li><a href="#contact" class="nav-link">Contacto</a></li>
+      </ul>
+      <div class="mobile-social">
+        <a href="https://www.instagram.com/lacorona_grill" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/lacoronabarandgrill" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.tiktok.com" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+      </div>
+      <a href="https://order.toasttab.com/online/marias-grill" class="btn btn-order btn-block">Order Online</a>
+    </nav>
+  </div>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero" id="home" style="background-image:url('assets/images/hero-bg.jpg');">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <img src="assets/logo/logo.png" alt="Maria's Bar & Grill" class="hero-logo" />
+      <p class="hero-tagline">Authentic Mexican Flavor <span class="gold">Since 2018</span></p>
+      <div class="hero-buttons">
+        <a href="assets/pdf/menu.pdf" target="_blank" rel="noopener" class="btn btn-outline">View Our Menu</a>
+        <!-- TODO: replace href with the real online ordering URL -->
+        <a href="https://www.grubhub.com/restaurant/la-corona-bar--grill-16623-sherman-way-los-angeles/2367982?utm_source=google&utm_medium=organic&utm_campaign=place-action-link&pickup=true&rwg_token=AE37R_illwfSeA1D3KfgtdwLw92tcs8NbLYSl6y-qTvuatqlg5Vp1742UDpzKNsOQLTuLBnBPMaw70tfog86voozYU3tXrK_Hw%3D%3D" class="btn btn-order">Order Online</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-mark">
+        <img src="assets/logo/logo.png" alt="Maria's Bar & Grill" />
+      </div>
+      <div class="about-text">
+        <h2 class="section-title">Authentic Mexican Cuisine <span class="slash">/</span> <span class="es">Auténtica Comida Mexicana</span></h2>
+       <p>
+  <em>La Corona Bar and Grill</em> brings the authentic flavors of Jalisco to Los Angeles.
+  Established in <em>2018</em>, we are known for our delicious <em>molcajetes</em>,
+  <em>enchiladas</em>, and traditional Mexican dishes made with rich flavor and care.
+  From the moment you walk in, our décor, flooring, and furniture create a warm atmosphere
+  that makes you feel like you are in <em>Mexico</em>.
+</p>
+
+<p>
+  Owner <em>Humberto R.</em> has been part of the family restaurant business since
+  <em>1992</em>, when he opened his first business with his father, <em>Salvador</em>,
+  in Reseda, California. With more than <em>26 years of experience</em>, Humberto now
+  brings his passion and knowledge to La Corona Bar and Grill, working alongside his
+  brothers to continue sharing authentic Mexican food with the community.
+</p>
+      </div>
+      <div class="about-history">
+        <h3><i class="fa-regular fa-calendar"></i> History</h3>
+        <p class="hist-line">Established in 2018.</p>
+        <p class="hist-sub gold">Established since 2018</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== breakfast ==================== -->
+  <section class="breakfast section" id="breakfast">
+    <div class="container">
+      <div class="section-head split">
+        <div>
+          <h2 class="section-title big">breakfast</h2>
+        </div>
+        <div class="schedule">
+          <p class="sched-days">SERVED ALL DAY</p>
+          <p class="sched-note">Fresh, hot & made to order</p>
+        </div>
+      </div>
+
+      <div class="cards two-cards">
+        <article class="dish-card">
+          <div class="dish-img" style="background-image:url('assets/images/chileconhuevo.jpg');"></div>
+          <div class="dish-body">
+            <div class="dish-topline">
+              <h3>Chile con Huevo</h3>
+              <span class="price">$19</span>
+            </div>
+            <p>Our most traditional breakfast plate, scrambled eggs in our very own red chile sauce.</p>
+          </div>
+        </article>
+
+        <article class="dish-card">
+          <div class="dish-img" style="background-image:url('assets/images/steak-and-eggs.jpg');"></div>
+          <div class="dish-body">
+            <div class="dish-topline">
+              <h3>Huevos And Carne Asada</h3>
+              <span class="price">$28</span>
+            </div>
+            <p>Steak & eggs, your choice of scrambled or over easy eggs</p>
+          </div>
+          </div>
+
+<p class="more-specials-text">
+  These are just a few of our breakfast specials. More delicious options available all day.
+</p>
+
+</section>
+        </article>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- ==================== HOUSE SPECIALTIES ==================== -->
+  <section class="house specialties section" id="house-specialties">
+    <div class="container">
+      <div class="section-head">
+  <h2 class="section-title big center">House <span class="gold">Specialties</span></h2>
+</div>
+
+      <div class="slider" data-visible="3" id="lunch-slider">
+        <button class="slider-arrow prev" aria-label="Previous">&#10094;</button>
+        <div class="slider-viewport">
+          <ul class="slider-track">
+            <li class="slide">
+  <button
+    class="dish-card clickable"
+    data-modal="house specialties"
+    data-name="Molcajete Mariscos Corona"
+    data-img="assets/images/molcajete-mariscos-corona.jpg"
+    data-category="House Specialty"
+    data-price="Md $85 / Lg $120"
+    data-time="Served all day"
+    data-note="Our newest molcajete with crab legs, imperial shrimp, sauteed shrimp, seasoned cactus, garlic octopus, garlic shrimp, basa filet, whole tilapia, and green salsa.">
+
+    <div class="dish-img" style="background-image:url('assets/images/molcajete-mariscos-corona.jpg');">
+      <span class="view-badge">
+        <i class="fa-solid fa-magnifying-glass"></i> Click to View
+      </span>
+    </div>
+
+    <div class="dish-name">Molcajete Mariscos Corona</div>
+  </button>
+</li>
+
+            <li class="slide">
+  <button
+    class="dish-card clickable"
+    data-modal="house specialties"
+    data-name="Grande Molcajete Corona Grill"
+    data-img="assets/images/grande-molcajete-corona-grill.jpg"
+    data-category="House Specialty"
+    data-price="$98"
+    data-time="Served all day"
+    data-note="Our biggest molcajete with grilled shrimp, grilled steak, grilled chicken, seasoned cactus, chorizo, and panela cheese.">
+
+    <div class="dish-img" style="background-image:url('assets/images/grande-molcajete-corona-grill.jpg');">
+      <span class="view-badge">
+        <i class="fa-solid fa-magnifying-glass"></i> Click to View
+      </span>
+    </div>
+
+    <div class="dish-name">Grande Molcajete Corona Grill</div>
+  </button>
+</li>
+
+            <li class="slide">
+  <button
+    class="dish-card clickable"
+    data-modal="house specialties"
+    data-name="Molcajete Carne en su Jugo"
+    data-img="assets/images/molcajete-carne-en-su-jugo.jpg"
+    data-category="House Specialty"
+    data-price="$46"
+    data-time="Served all day"
+    data-note="Grilled steak with bacon, served in green chile with seasoned cactus, chorizo, and cheese.">
+
+    <div class="dish-img" style="background-image:url('assets/images/molcajete-carne-en-su-jugo.jpg');">
+      <span class="view-badge">
+        <i class="fa-solid fa-magnifying-glass"></i> Click to View
+      </span>
+    </div>
+
+    <div class="dish-name">Molcajete Carne en su Jugo</div>
+  </button>
+</li>
+
+            <li class="slide">
+  <button
+    class="dish-card clickable"
+    data-modal="house specialties"
+    data-name="Lomo Asado"
+    data-img="assets/images/lomo-asado.jpg"
+    data-category="House Specialty"
+    data-price="$39"
+    data-time="Served all day"
+    data-note="Our tender 8oz rib eye served with steamed vegetables and white rice.">
+
+    <div class="dish-img" style="background-image:url('assets/images/lomo-asado.jpg');">
+      <span class="view-badge">
+        <i class="fa-solid fa-magnifying-glass"></i> Click to View
+      </span>
+    </div>
+
+    <div class="dish-name">Lomo Asado</div>
+  </button>
+</li>
+
+<li class="slide">
+  <button
+    class="dish-card clickable"
+    data-modal="house specialties"
+    data-name="Mar y Tierra"
+    data-img="assets/images/mar-y-tierra.jpg"
+    data-category="House Specialty"
+    data-price="$34"
+    data-time="Served all day"
+    data-note="Succulent shrimp paired with our flame-grilled flank steak or chicken breast, garnished with grilled onion, jalapeño pepper, and our signature guacamole. Served with rice and beans.">
+
+    <div class="dish-img" style="background-image:url('assets/images/mar-y-tierra.jpg');">
+      <span class="view-badge">
+        <i class="fa-solid fa-magnifying-glass"></i> Click to View
+      </span>
+    </div>
+
+    <div class="dish-name">Mar y Tierra</div>
+  </button>
+</li>
+
+<li class="slide">
+  <button
+    class="dish-card clickable"
+    data-modal="house specialties"
+    data-name="Chile Verde"
+    data-img="assets/images/chile-verde.jpg"
+    data-category="House Specialty"
+    data-price="$24"
+    data-time="Served all day"
+    data-note="Pork loin with potatoes in our signature green sauce. Served with rice and beans.">
+
+    <div class="dish-img" style="background-image:url('assets/images/chile-verde.jpg');">
+      <span class="view-badge">
+        <i class="fa-solid fa-magnifying-glass"></i> Click to View
+      </span>
+    </div>
+
+    <div class="dish-name">Chile Verde</div>
+  </button>
+</li>
+
+  <li class="slide">
+  <button
+    class="dish-card clickable"
+    data-modal="house specialties"
+    data-name="Fajitas Supremas"
+    data-img="assets/images/fajitas-supremas.jpg"
+    data-category="House Specialty"
+    data-price="$41"
+    data-time="Served all day"
+    data-note="Our most popular fajitas served with succulent shrimp, grilled chicken, and grilled steak.">
+
+    <div class="dish-img" style="background-image:url('assets/images/fajitas-supremas.jpg');">
+      <span class="view-badge">
+        <i class="fa-solid fa-magnifying-glass"></i> Click to View
+      </span>
+    </div>
+
+    <div class="dish-name">Fajitas Supremas</div>
+  </button>
+</li>
+
+           <li class="slide">
+  <button
+    class="dish-card clickable"
+    data-modal="house specialties"
+    data-name="7-Mares Seafood Soup"
+    data-img="assets/images/7-mares-seafood-soup.jpg"
+    data-category="House Specialty"
+    data-price="$35"
+    data-time="Served all day"
+    data-note="Seafood soup prepared with a flavorful mix of fresh seafood.">
+
+    <div class="dish-img" style="background-image:url('assets/images/7-mares-seafood-soup.jpg');">
+      <span class="view-badge">
+        <i class="fa-solid fa-magnifying-glass"></i> Click to View
+      </span>
+    </div>
+
+    <div class="dish-name">7-Mares Seafood Soup</div>
+  </button>
+</li>
+          </ul>
+        </div>
+        <button class="slider-arrow next" aria-label="Next">&#10095;</button>
+      </div>
+
+      <div class="center-btn">
+        <a href="assets/pdf/menu.pdf" target="_blank" rel="noopener" class="btn btn-order"><i class="fa-solid fa-file-pdf"></i> View Our Menu PDF</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== HAPPY HOUR BANNER (parallax) ==================== -->
+  <section class="hh-banner" id="happy-hour" style="background-image:url('assets/images/happyhour-bg.jpg');">
+    <div class="hh-banner-overlay"></div>
+    <div class="hh-banner-content">
+      <p class="hh-join">Join Us For</p>
+      <h2 class="hh-title neon">Happy Hour</h2>
+      <p class="hh-sub">Every Monday to Friday 3pm - 6pm </p>
+    </div>
+  </section>
+
+  <!-- ==================== HAPPY HOUR SPECIALS ==================== -->
+  <section class="hh-specials section">
+    <div class="container">
+      <div class="slider" data-visible="2" id="hh-slider">
+        <button class="slider-arrow prev" aria-label="Previous">&#10094;</button>
+        <div class="slider-viewport">
+          <ul class="slider-track">
+            <li class="slide">
+  <button 
+    class="dish-card clickable hh-card" 
+    data-modal="happy hour" 
+    data-name="Happy Hour Margaritas" 
+    data-img="assets/images/happy-hour-margaritas.jpg"
+    data-category="Happy Hour"
+    data-price="House Margarita $7"
+    data-time="Monday – Friday · 3 PM – 6 PM"
+    data-note="House Margarita $7 · Micheladas $11 · Ask about our margarita specials.">
+
+    <div class="dish-img" style="background-image:url('assets/images/happy-hour-margaritas.jpg');">
+      <span class="view-badge">
+        <i class="fa-solid fa-magnifying-glass"></i> Click to View
+      </span>
+    </div>
+
+    <div class="dish-body alt">
+      <h3>Happy Hour Margaritas</h3>
+      <p>Monday – Friday · 3 PM – 6 PM</p>
+      <p class="mini">
+        House Margarita <span class="gold">$7</span> · Micheladas <span class="gold">$11</span>
+      </p>
+    </div>
+  </button>
+</li>
+
+          <li class="slide">
+  <button 
+    class="dish-card clickable hh-card" 
+    data-modal="happy hour" 
+    data-name="Street Tacos" 
+    data-img="assets/images/street-tacos.jpg"
+    data-category="Happy Hour"
+    data-price="2 x $5"
+    data-time="Monday – Friday · 3 PM – 6 PM"
+    data-note="Street tacos available with carne asada, al pastor, carnitas, grilled chicken, or shredded chicken.">
+
+    <div class="dish-img" style="background-image:url('assets/images/street-tacos.jpg');">
+      <span class="view-badge">
+        <i class="fa-solid fa-magnifying-glass"></i> Click to View
+      </span>
+    </div>
+
+    <div class="dish-body alt">
+      <h3>Street Tacos</h3>
+      <p class="price-big gold">2 x $5</p>
+      <p class="mini">
+        Carne Asada · Al Pastor · Carnitas · Grilled Chicken · Shredded Chicken
+      </p>
+    </div>
+  </button>
+</li>
+
+           <li class="slide">
+  <button 
+    class="dish-card clickable hh-card" 
+    data-modal="happy hour" 
+    data-name="Nachos or Fries" 
+    data-img="assets/images/nachos-or-fries.jpg"
+    data-category="Happy Hour"
+    data-price="$12"
+    data-time="Monday – Friday · 3 PM – 6 PM"
+    data-note="Nachos or fries with your choice of carne asada, al pastor, carnitas, or shredded chicken.">
+
+    <div class="dish-img" style="background-image:url('assets/images/nachos-or-fries.jpg');">
+      <span class="view-badge">
+        <i class="fa-solid fa-magnifying-glass"></i> Click to View
+      </span>
+    </div>
+
+    <div class="dish-body alt">
+      <h3>Nachos or Fries</h3>
+      <p class="price-big gold">$12</p>
+      <p class="mini">
+        Carne Asada · Al Pastor · Carnitas · Shredded Chicken
+      </p>
+    </div>
+  </button>
+</li>
+          </ul>
+        </div>
+        <button class="slider-arrow next" aria-label="Next">&#10095;</button>
+      </div>
+    </div>
+  </section>
+
+<!-- ==================== FRIDAY NIGHT BANNER ==================== -->
+<section class="friday-banner" style="background-image:url('assets/images/friday-bg.jpg');">
+  <div class="friday-overlay"></div>
+  <div class="container friday-content">
+    <p class="friday-kicker gold">Make It a Day to Remember</p>
+    <h2 class="friday-title">Lunch, Dinner & Drinks at La Corona</h2>
+
+    <div class="friday-info">
+      <span class="fi"><strong>Mexican Food</strong></span>
+      <span class="fi">Full Bar</span>
+      <span class="fi">Good Vibes</span>
+    </div>
+
+    <p class="friday-cta">Celebrate with us!</p>
+    <p class="friday-sub">The perfect spot for dinner, drinks, birthdays &amp; good times.</p>
+  </div>
+</section>
+
+<!-- ================= HOUSE DRINKS ================= -->
+<section class="specialties section" id="house-drinks">
+  <div class="container">
+    <h2 class="section-title big center">House <span class="gold">Drinks</span></h2>
+
+    <div class="cards four-cards">
+      <article class="spec-card">
+        <div class="dish-img" style="background-image:url('assets/images/mangoneada.jpg');"></div>
+        <div class="dish-name">Mangoneada</div>
+      </article>
+
+      <article class="spec-card">
+        <div class="dish-img" style="background-image:url('assets/images/cazuelita.jpg');"></div>
+        <div class="dish-name">Cazuelita</div>
+      </article>
+
+      <article class="spec-card">
+        <div class="dish-img" style="background-image:url('assets/images/el-rey.jpg');"></div>
+        <div class="dish-name">El Rey</div>
+      </article>
+
+      <article class="spec-card">
+        <div class="dish-img" style="background-image:url('assets/images/la-reina.jpg');"></div>
+        <div class="dish-name">La Reina</div>
+      </article>
+    </div>
+  </div>
+</section>
+  </section>
+
+  <!-- ==================== FOOTER / CONTACT ==================== -->
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <ul class="contact-list">
+          <li><i class="fa-solid fa-location-dot"></i> <span>16623 Sherman Way Van Nuys, CA 91406</span></li>
+          <li><i class="fa-solid fa-phone"></i> <span>(818) 849-6485</span></li>
+          <li><i class="fa-solid fa-envelope"></i> <span>info@lacoronabarandgrill.com</span></li>
+          <li><i class="fa-solid fa-globe"></i> <span>www.lacoronabarandgrill.com</span></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Hours</h4>
+        <ul class="hours-list">
+          <li><span>Mon – Thu</span><span>9:00 am – 11:00 pm</span></li>
+          <li><span>Friday</span><span>9:00 am – 12:00 am</span></li>
+          <li><span>Saturday</span><span>9:00 am – 12:00 am</span></li>
+          <li><span>Sunday</span><span>9:00 am – 10:00 pm</span></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <ul class="social-list">
+          <li><a href="https://www.instagram.com/mariasbarandgrilldowney" target="_blank" rel="noopener"><i class="fab fa-instagram"></i> @lacorona_grill</a></li>
+          <li><a href="https://www.facebook.com/lacoronabarandgrill" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i> lacoronabarandgrill &amp; Grill</a></li>
+          <li><a href="https://www.tiktok.com/" target="_blank" rel="noopener"><i class="fab fa-tiktok"></i> </a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Find Us</h4>
+        <div class="map-wrap">
+          <!-- TODO: replace the src below with the venue's Google Maps embed URL -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3299.8416393644447!2d-118.49804922427715!3d34.20152237310118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c299fafec433c9%3A0x2d3bb8ce5e0e439d!2s16623%20Sherman%20Way%2C%20Van%20Nuys%2C%20CA%2091406!5e0!3m2!1sen!2sus!4v1783368185998!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Maria's Bar &amp; Grill. All Rights Reserved.</p>
+      <p class="credits">Designed by <a href="https://www.singularcreations.net" target="_blank" rel="noopener">Singular Creations</a> · <a href="https://www.singularcreations.net" target="_blank" rel="noopener">www.singularcreations.net</a></p>
+    </div>
+  </footer>
+
+  <!-- ==================== MODAL ==================== -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" data-close aria-label="Close">&times;</button>
+      <div class="modal-img" id="modal-img"></div>
+      <div class="modal-body">
+        <h3 id="modal-title"></h3>
+        <div id="modal-content"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
